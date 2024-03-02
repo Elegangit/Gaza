@@ -1,0 +1,128 @@
+p{color: #1a0303; background-color: bisque; border-radius:15%;}
+    div { color:rgb(38, 2, 43); background-color: bisque;border-radius:15%;}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif; background-color:rgb(230, 155, 201); background-image: URL("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/117/314/original/Sally_6.jpg?1709413114");}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  transition: autoplay;
+  margin: auto;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* Caption text */
+.text {
+  background-color: burlywood;
+  color: #480f6e;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #1a0303;
+  background-color: darkkhaki;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 3000;
+}
+footer{font-size: 18px; color: rgba(228, 213, 128, 0.781);} 
+
+ .hero-picture { width:100%; background-size:cover; }
+a {
+  transition: all 200ms ease;
+  opacity: 1.5;
+  color: rgb(20, 20, 82);
+}
+
+a:hover {
+  opacity: 2;
+  color: rgb(38, 2, 43);
+}
+
+
+footer { text-align: center; transform:  rotateX(30deg) rotateY(33deg) rotateZ(337deg) scale(1.61, 1.33) translate(23px, 0px);} 
+
+
+.container {
+  background-size: cover;
+  font-family:monospace;
+  border-radius:35%;
+  margin: auto 0;
+  padding: 0;
+  background-color: rgb(219, 210, 200);
+} 
+
+.bar
+{
+    width: 1100px;
+  height: 40px;
+  color: rgb(241, 199, 143);
+    margin: 30px auto;
+  
+    
+}
+
+.bar ul 
+{
+  float: left;
+  list-style: none;
+    display: block;
+    
+}
+.bar ul li 
+{
+  float: left;
+  list-style: none;
+  display: block;
+    width: 210px;
+    background-color: rgba(201, 134, 134, 0.671);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 4px;
+}
+ul li a {
+    display: block;
+    cursor:context-menu;
+}
+ul li a:hover
+{
+    display: block;
+    background-color: floralwhite;
+    color: steelblue;
+}
+.bar ul li ul li
+{
+    margin-bottom: 0;
+    display: none;
+}
+.bar ul li:hover ul li 
+{
+    display: block;
+}
+body {background-image:url ("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/117/314/original/Sally_6.jpg?1709413114"); } 
+iframe {border-radius:20%; text-align:center; margin:0 auto; position:center;}
+    center {text-align:center; margin:0 auto; position:center;}
